@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-image: -webkit-linear-gradient(
+    top left,
+    #FAF3E3 0%,  
+    #f5f4f4 45%,
+    #FAF3E3 100%    
+  );
+  color: #000;
+  font-family: 'Anek Telugu', sans-serif;
+}
+
+h1 {
+  font-size:2.2rem; 
+  padding-bottom: 1.2rem;
+  padding-top: 3rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: bold;
+  padding-bottom: 1.2rem;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+p,li {
+  font-size: 1.4rem;
+}
+
+ul {
+  padding-top: 1rem;
+}
+
+section {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+
+.link {
+  font-weight: bold;
+  color:  lightseagreen
+}
+
+@keyframes animate-gino {
+  0% {
+   
+    transform: scale(1);
+  } 
+  
+  50% {
+    transform: scale(1.1);
+  }
+
+  90% {
+    transform: scale(1);
+  }  
+}
+
+@media (max-width: 768px) {
+  
+  section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
+  }
+
+  h1 {
+    font-size:1.6rem;
+  } 
+  p,li {
+    font-size: 1.2rem;
+  }
+  
+
+  
+
+
+
+
+
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+ */
