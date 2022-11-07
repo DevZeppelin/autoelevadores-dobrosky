@@ -27,7 +27,7 @@ const Section1 = () => {
         </div>
         <div>
           <img
-            src="\maquinas\S01F01-autoelevador-pinza-fardos.jpg"
+            src="\maquinas\S04-tractor-invertido.jpg"
             className="mt-10 md:mt-0 rounded-xl m-2 md:m-8 border-2 border-black my-auto"
           />
         </div>

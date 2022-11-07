@@ -22,7 +22,7 @@ const Section1 = () => {
             </Link>
           </div>
           <div className="hidden md:block flex-wrap">
-            <img src="public\maquinas\S04-tractor-invertido.jpg" alt="" className="h-full my-auto" />
+            <img src="\maquinas\S01F01-autoelevador-pinza-fardos.jpg" alt="" className="h-full my-auto" />
           </div>
         </div>
       </div>
