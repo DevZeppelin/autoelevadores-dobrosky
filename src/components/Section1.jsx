@@ -21,7 +21,7 @@ const Section1 = () => {
               <button className="btn">Contáctanos hoy</button>
             </Link>
           </div>
-          <div className="hidden md:flex flex-wrap absolute bottom-0 left-0 md:relative">
+          <div className="hidden md:block flex-wrap md:absolute bottom-0 left-0 md:relative">
             <img src="public\maquinas\S04-tractor-invertido.jpg" alt="" className="h-full my-auto" />
           </div>
         </div>
