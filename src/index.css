@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   background-image: -webkit-linear-gradient(
     top left,
-    #FAF3E3 0%,  
-    #f5f4f4 45%,
-    #FAF3E3 100%    
+    #eee 0%,  
+    #CAF0F8 45%,
+    #90E0EF 100%    
   );
   color: #000;
-  font-family: 'Anek Telugu', sans-serif;
+  /*font-family: 'Anek Telugu', sans-serif;*/
+  font-family: 'Rubik', sans-serif;
 }
 
 h1 {
@@ -41,14 +44,26 @@ ul {
 
 section {
   padding-left: 5rem;
-  padding-right: 5rem;
-  padding-bottom: 5rem;
+  padding-right: 5rem
+  
 }
 
 
 .link {
   font-weight: bold;
   color:  lightseagreen
+}
+
+.indexGridImageText {
+  @apply w-full text-white text-sm md:text-sm border-b-2 border-secundary h-14 absolute bg-secundary bottom-0 z-10 py-2 hover:bg-colorMain uppercase font-bold transition duration-500 px-1;
+}
+
+.btn {
+  @apply bg-secundary p-4 rounded-lg text-white font-bold ;
+}
+
+.btn:hover {
+  @apply bg-fourth text-secundary font-extrabold transform -translate-y-2 transition duration-500 cursor-pointer border-2 border-secundary rounded-xl;
 }
 
 @keyframes animate-gino {
@@ -70,9 +85,7 @@ section {
   
   section {
     padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 5rem;
-  }
+    padding-right: 1rem}    
 
   h1 {
     font-size:1.6rem;
@@ -82,15 +95,10 @@ section {
   }
   
 
-  
-
-
-
-
 
 }
 
-/* @media (prefers-color-scheme: light) {
+/*@media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;

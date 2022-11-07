@@ -5,7 +5,8 @@ const Footer = () => {
   const onTop = window.scrollTo(0, 0);
 
   return (
-    <div className="bg-secundary grid grid-cols-2 text-colorMain p-2 text-center">
+    <div className="bg-secundary flex flex-col md:grid md:grid-cols-2 text-third p-2 text-center">
+      <p>¡Muchas gracias por su visita!</p>
       <Link to="/" className="uppercase text-lg my-auto" onClick={onTop}>
         IR ARRIBA ☝
       </Link>
