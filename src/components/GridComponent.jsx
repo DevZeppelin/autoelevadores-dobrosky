@@ -8,7 +8,7 @@ const GridComponent = ({name, src}) => {
         <img
           src={src}          
           alt="building icon logo Ad Service petróleo y agua"
-          className="gridImage imagen-filtro rounded-2xl h-full pb-4"
+          className="gridImage imagen-filtro rounded-2xl h-full w-full pb-4"
 
           />
       </div>

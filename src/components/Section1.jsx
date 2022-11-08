@@ -5,7 +5,7 @@ const Section1 = () => {
     <section>
       <div>
         <div className="flex relative overflow-hidden md:grid md:grid-cols-2 text-lg px-6 md:px-24 bg-lightGray background-overlay">
-          <div className="first-block space-y-2 md:space-y-4 md:space-y-5 p-2 md:p-8 my-auto bg-white z-40 opacity-70 md:opacity-100 h-full">
+          <div className="first-block space-y-2 md:space-y-4 md:space-y-5 p-2 md:p-8 my-auto bg-white z-40 md:opacity-100 h-full">
             <h1 className="font-black text-2xl md:text-2xl">
               FABRICA DE AUTOELEVADORES DESDE 1940
             </h1>

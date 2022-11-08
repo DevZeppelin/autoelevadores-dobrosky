@@ -51,7 +51,7 @@ section {
 
 .link {
   font-weight: bold;
-  color:  lightseagreen
+  color:  #90E0EF
 }
 
 .indexGridImageText {
@@ -59,7 +59,7 @@ section {
 }
 
 .btn {
-  @apply bg-secundary p-4 rounded-lg text-white font-bold ;
+  @apply bg-colorMain p-4 rounded-lg text-white font-bold;
 }
 
 .btn:hover {

@@ -8,10 +8,10 @@ const SectionD20 = () => {
     </h2>
     <div className="grid grid-cols-1 md:grid-cols-2">
     <Link to="/maquinas">
-        <div>
+        <div className="m-0 md:m-12">
           <img
             src="/d20.png"
-            className="mx-auto border-2 m-4 rounded-xl border-black "
+            className="mx-auto border-2 m-4 rounded-xl border-black w-full "
           />
           
         </div>
