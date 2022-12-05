@@ -16,7 +16,7 @@ const NavBar = ({ toggleNav }) => {
       <nav className="hidden md:flex my-4 space-x-6">
         <Link
           className={`${
-            urlActual === "/Servicios" ? "color-white" : "text-fourth"
+            urlActual === "/" ? "color-white" : "text-fourth"
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
           to="/Servicios"
         >
@@ -25,7 +25,7 @@ const NavBar = ({ toggleNav }) => {
 
         <Link
           className={`${
-            urlActual === "/MaquinasVarias" ? "color-white" : "text-fourth"
+            urlActual === "/" ? "color-white" : "text-fourth"
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
           to="/MaquinasVarias"
         >
@@ -33,7 +33,7 @@ const NavBar = ({ toggleNav }) => {
         </Link>
         <Link
           className={`${
-            urlActual === "/VolcadoresBins" ? "color-white" : "text-fourth"
+            urlActual === "/" ? "color-white" : "text-fourth"
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
           to="/VolcadoresBins"
         >
@@ -41,7 +41,7 @@ const NavBar = ({ toggleNav }) => {
         </Link>
         <Link
           className={`${
-            urlActual === "/MaquinasAgricolas"
+            urlActual === "/"
               ? "color-white"
               : "text-fourth"
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
@@ -51,7 +51,7 @@ const NavBar = ({ toggleNav }) => {
         </Link>
         <Link
           className={`${
-            urlActual === "/Elevadores" ? "color-white" : "text-fourth"
+            urlActual === "/" ? "color-white" : "text-fourth"
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
           to="/Elevadores"
         >
