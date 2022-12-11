@@ -1,10 +1,10 @@
 
-const SectionHistory = ({myRefHistory, IsVisible2}) => {
+const SectionHistory = ({myRefHistory, isVisibleHistory}) => {
 
   return (
     <section className="text-center space-y-9 mx-6 md:mx-18">
       
-      <h1 ref={myRefHistory} className= {`${IsVisible2 ? "animate-appear" : ""}`}> Breve reseña de la firma DOBROSKY</h1>
+      <h1 ref={myRefHistory} className= {`${isVisibleHistory ? "animate-appear" : ""}`}> Breve reseña de la firma DOBROSKY</h1>
       
 
       <div className="flex flex-col md:grid grid-cols-2">
@@ -12,11 +12,11 @@ const SectionHistory = ({myRefHistory, IsVisible2}) => {
           <img
             src="\maquinas\S04-tractor-invertido.jpg"
             ref={myRefHistory} 
-            className= {`${IsVisible2 ? "animate-appear" : ""}
+            className= {`${isVisibleHistory ? "animate-appear" : ""}
             mb-10 md:mt-0 rounded-xl m-2 md:m-8 border-2 border-black my-auto w-full`}
           />
         </div>
-        <div ref={myRefHistory} className= {`${IsVisible2 ? "animate-appear" : ""} space-y-4 `}>
+        <div ref={myRefHistory} className= {`${isVisibleHistory ? "animate-appear" : ""} space-y-4 `}>
           <p>
             A partir de la década de 1910 DOBROSKY inicia su actividad en el
             rubro MetalMecánico construyendo carruajes y carros para el
