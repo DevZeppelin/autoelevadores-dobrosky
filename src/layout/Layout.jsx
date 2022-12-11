@@ -1,4 +1,5 @@
 import React from "react";
+
 import { useState } from "react";
 import { Outlet, Link, useLocation } from "react-router-dom";
 import MobileNavBar from "../components/MobileNavBar";
@@ -17,6 +18,7 @@ const Layout = () => {
    e.preventDefault();
     setOpen(!open);
   };
+ 
 
   return (
     <div>

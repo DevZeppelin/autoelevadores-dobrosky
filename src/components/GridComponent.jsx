@@ -13,7 +13,7 @@ const GridComponent = ({name, src}) => {
           />
       </div>
        {/* CSS Puro */}
-       <style jsx>{`
+       <style jsx='true'>{`
           .imagen-filtro {
             transition: all 0.4s ease;
           }

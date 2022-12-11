@@ -16,50 +16,50 @@ const NavBar = ({ toggleNav }) => {
       <nav className="hidden md:flex my-4 space-x-6">
         <Link
           className={`${
-            urlActual === "/" ? "color-white" : "text-fourth"
+            urlActual === "/Servicios" ? "text-third overline" : "text-fourth"
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
-          to="/Servicios"
+          to="/"
         >
           Servicios
         </Link>
 
         <Link
           className={`${
-            urlActual === "/" ? "color-white" : "text-fourth"
+            urlActual === "/MaquinasVarias" ? "text-third overline" : "text-fourth"
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
-          to="/MaquinasVarias"
+          to="/"
         >
           Máquinas Varias
         </Link>
         <Link
           className={`${
-            urlActual === "/" ? "color-white" : "text-fourth"
+            urlActual === "/VolcadoresBins" ? "text-third overline" : "text-fourth"
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
-          to="/VolcadoresBins"
+          to="/"
         >
           Volcadores de Bins
         </Link>
         <Link
           className={`${
-            urlActual === "/"
-              ? "color-white"
+            urlActual === "/MaquinasAgricolas"
+              ? "text-third overline"
               : "text-fourth"
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
-          to="/MaquinasAgricolas"
+          to="/"
         >
           Máquinas Agrícolas
         </Link>
         <Link
           className={`${
-            urlActual === "/" ? "color-white" : "text-fourth"
+            urlActual === "/Elevadores" ? "text-third overline" : "text-fourth"
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
-          to="/Elevadores"
+          to="/"
         >
           Elevadores invertidos
         </Link>
         <Link
           className={`${
-            urlActual === "/contacto" ? "color-white" : "text-fourth"
+            urlActual === "/contacto" ? "text-third overline" : "text-fourth"
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
           to="/contacto"
         >

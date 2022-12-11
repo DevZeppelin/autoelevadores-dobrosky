@@ -66,20 +66,53 @@ section {
   @apply bg-fourth text-secundary font-extrabold transform -translate-y-2 transition duration-500 cursor-pointer border-2 border-secundary rounded-xl;
 }
 
-@keyframes animate-gino {
-  0% {
-   
-    transform: scale(1);
-  } 
-  
-  50% {
-    transform: scale(1.1);
-  }
+/*ANIMATION TO REACT SCROLLING*/
 
-  90% {
-    transform: scale(1);
-  }  
+.animate-left {
+  animation-duration: 2s;
+  animation-name: animate-left;
 }
+.animate-right {
+  animation-duration: 2s;
+  animation-name: animate-right;
+}
+
+.animate-appear {
+  animation-duration: 3s;
+  animation-name: animate-appear
+}
+
+
+@keyframes animate-left {
+  0% {
+    opacity: 0%;
+    transform: translate(-200px, 0)
+  }
+  50%{
+    opacity: 100%;
+  }
+}
+
+@keyframes animate-right {
+  0% {
+    opacity: 0%;
+    transform: translate(200px, 0)
+  }
+  50%{
+    opacity: 100%;
+  }
+}
+
+@keyframes animate-appear {
+  0% {
+    opacity: 0%;   
+  }
+  70%{
+    opacity: 100%;
+  }
+}
+
+
 
 @media (max-width: 768px) {
   

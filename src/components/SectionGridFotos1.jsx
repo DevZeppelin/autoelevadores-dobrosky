@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import GridComponent from "./GridComponent";
 
-const SectionGridFotos1 = () => {
+const SectionGridFotos1 = ({myRefG1, IsVisibleG1}) => {
   return (
-    <section>
+    <section ref={myRefG1} className= {`${IsVisibleG1 ? "animate-appear" : ""}`}>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-8 md:m-24 text-center fadeIn element">
         <div className="my-auto font-bold flex">
           <div className="w-3 h-32 bg-dgreen my-auto"></div>

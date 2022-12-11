@@ -3,12 +3,12 @@ import GridComponent from "./GridComponent";
 import MainBarButton from "./MainBarButton";
 import { FaInstagram } from "react-icons/fa";
 
-const SectionGridFotos2 = () => {
+const SectionGridFotos2 = ({myRefG2, IsVisibleG2}) => {
   return (
-    <section className="pt-10 px-4 md:px-10 bg-colorMain text-third py-10 w-full">
+    <section ref={myRefG2} className= {`${IsVisibleG2 ? "animate-appear" : ""} pt-10 px-4 md:px-10 bg-colorMain text-third py-10 w-full`}>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 m-8 md:m-24 text-center fadeIn element">
         
-        <img src="logo-old.png" className="my-auto" />
+        <img src="logo-old.png" className="my-auto bg-fourth border-2 border-black rounded-xl" />
         <GridComponent
           name="Montacarga Fijo"
           src="\maquinas\S11F01-montacarga-fijo.jpg"
