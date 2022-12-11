@@ -48,7 +48,7 @@ const TopMainScreen = () => {
           />
         </a>
         <Link to="/contacto">
-          <div className="rounded-lg p-4 text-xl ml-16  my-auto btn">
+          <div className="rounded-lg p-4 text-xl ml-16  my-auto btn animate-bounce">
             Contacto
           </div>
         </Link>

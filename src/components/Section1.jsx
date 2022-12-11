@@ -18,7 +18,7 @@ const Section1 = () => {
               </p>
             </div>
             <Link to="/contacto">
-              <button className="btn">Contáctanos hoy</button>
+              <button className="btn animate-bounce">Contáctanos hoy</button>
             </Link>
           </div>
           <div className="hidden md:block flex-wrap">

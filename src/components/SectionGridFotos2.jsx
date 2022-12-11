@@ -13,7 +13,7 @@ const SectionGridFotos2 = ({myRefG2, IsVisibleG2}) => {
           name="Montacarga Fijo"
           src="\maquinas\S11F01-montacarga-fijo.jpg"
         />
-        <GridComponent
+        <GridComponent          
           name="Levante Hidráulico Tractor"
           src="\maquinas\S12F01-levante-hidraulico-tractor.jpg"
         />
