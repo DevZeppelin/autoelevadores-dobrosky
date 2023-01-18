@@ -30,27 +30,23 @@ const SectionD20 = ({ myRefD20, isVisibleD20 }) => {
               />
             </div>
           </Link>
-          <div className="my-auto p-4 space-y-2">
-            <p>
-              Nuestro prototipo especial, con motor FORD 221 con una potencia de
-              120 HP. Nro de Patente: 223.036. Una innovación revolucionaria en
-              cuanto a que en esos tiempo no existían fábricas de autoelevadores
-              en Argentina.
-            </p>
-            <p>
-              Enfriamiento a presión y frenos automáticos por medio de la
-              trasmisión.
-            </p>
-            <p>Sistema hidráulico de bomba a engranaje de un cuerpo.</p>
-            <p>
-              Mástil cosntruído en perfiles soldados en sección L de acero
-              laminado el parante interior y de sección U el exterior. Dirección
-              Hidrostática.
-            </p>
-            <p>Transmisión Hidrostática</p>
-            <p>
-              Transmisión Mecánica, 2 velocidades adelante, 2 velocidades atrás
-            </p>
+          <div className="my-auto bg-gray-400 text-black rounded-xl text-xl p-4 space-y-5">
+            <h2 className="text-2xl">CARACTERÍSTICAS</h2>
+            
+              <p>
+                Está construído con chasis de una sola pieza, siendo los laterales del mismo los depósitos de combustible, posee tapas desmontables para limpieza.
+              </p>
+              <p>
+                Motor nafta y diesel
+              </p>
+              <p><b>TRANSMISIÓN:</b> Hidrostática con un solo motor hidráulico y puente diferencial</p>
+              <p><b>TRANSMISIÓN:</b> Mecánica dos velocidades adelante, dos velocidades atrás.</p>
+              <p><b>MÁSTIL:</b> Cilindros laterales de elevación</p>
+              <p><b>TIPO DE AUTOELEVADOR:</b> Convencional y todo terreno</p>
+              <p>Facilidad y rapidez para verificar o realizar mantenimiento.</p>
+              <p>Mástil con cilindro laterales de levante.</p>
+            
+            
           </div>
         </div>
       </div>

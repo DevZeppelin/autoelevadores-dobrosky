@@ -7,7 +7,7 @@ const Section1 = () => {
         <div className="flex relative overflow-hidden md:grid md:grid-cols-2 text-lg px-6 md:px-24 bg-lightGray background-overlay">
           <div className="first-block space-y-2 md:space-y-4 md:space-y-5 p-2 md:p-8 my-auto bg-white z-40 md:opacity-100 h-full">
             <h1 className="font-black text-2xl md:text-2xl">
-              FABRICA DE AUTOELEVADORES DESDE 1940
+              FABRICA DE AUTOELEVADORES DESDE 1970
             </h1>
             <div className="h-1 w-56 bg-dgreen mx-auto"></div>
             <div className="">

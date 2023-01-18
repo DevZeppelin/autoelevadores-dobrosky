@@ -58,7 +58,7 @@ const SectionGridFotos1 = ({myRefG1, IsVisibleG1}) => {
           src="\maquinas\S08F02-reductores-velocidad-con-embrague.jpg"
         />
         <GridComponent
-          name="Transpalet"
+          name="Transpaletas"
           src="\maquinas\S09F01-transpalet.jpg"
         />
         <GridComponent
@@ -70,7 +70,7 @@ const SectionGridFotos1 = ({myRefG1, IsVisibleG1}) => {
           src="\maquinas\S09F03-arado-multiple.jpg"
         />
         <GridComponent
-          name="Niveladora"
+          name="Niveladora hidráulica"
           src="\maquinas\S10-niveladora.jpg"
         />
 

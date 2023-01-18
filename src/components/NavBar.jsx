@@ -55,7 +55,7 @@ const NavBar = ({ toggleNav }) => {
           } text-white text-lg my-auto flex mt-2 hover:text-third p-2`}
           to="/"
         >
-          Elevadores invertidos
+          Tractores Invertidos
         </Link>
         <Link
           className={`${
